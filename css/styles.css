@@ -635,6 +635,9 @@ button {
 .review-form-field-input:focus + .review-form-field-icon {
   fill: #4d5ae5;
 }
+.review-form-field-comment {
+  margin-bottom: 16px;
+}
 .review-form-field-message {
   font-size: 12px;
   font-weight: 400;
@@ -736,36 +739,3 @@ button {
 .review-form-btn:focus {
   background-color: #404bbf;
 }
-
-/*
-.modal-closing-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background-color: var(--с-cards-light);
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  padding: 0;
-  cursor: pointer;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-closing-btn:hover {
-  fill: var(--c-primary);
-  background-color: #404BBF;
-  border: none;
-}
-
-.modal-closing-btn:focus {
-  fill: var(--c-primary);
-  background-color: #404BBF;
-  border: none;
-}
-
-*/
