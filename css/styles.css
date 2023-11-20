@@ -594,6 +594,7 @@ button {
 
 .review-form-input-wrapper {
   position: relative;
+  margin-bottom: 8px;
 }
 .review-form-field-label {
   display: block;
